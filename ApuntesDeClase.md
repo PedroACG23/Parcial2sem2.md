@@ -3,16 +3,16 @@
 ### Ejercicio 1.-
 ```dart
 void main() {
-  //instancia es como una copia de la clase
+  //instancia es creacion de un objeto a partir de la clase
   var e1 = Estudiante();
   Estudiante e2 = Estudiante();
   //esto se llama constructor porque esta construyendo la instancia e2 de la clase estudiante
-  e1.nombre = "Alex";
+  e1.nombre = "Pedro";
   e1.aNacimiento = 2004;
   e1.Reporte(2023);
   /* print(e1);
   print(e2); */
-  e2.nombre = "Carlos";
+  e2.nombre = "Castillo";
   e2.aNacimiento = 2004;
   e2.Reporte(2023);
 
@@ -22,15 +22,14 @@ void main() {
   print(e2.aNacimiento); */
   // e1 y e2 son instancias
   // reutlizacion de codigo para evitar tener codigo duplicado
-  //github copilot
   /* reporte(e1);
   reporte(e2); */
 }
 
 class Estudiante {
-  //todos los objetos tienen dos cosas utilizables caracteristicas o atributos
+  //todos los objetos tienen 2 cosas utilizables caracteristicas o atributos
   //comportamientos es lo que se puede hacer con los abijetos (indican accion)
-  String nombre = ""; //Nulo y vacio son cosas distintas
+  String nombre = ""; //Null y vacio son cosas distintas
   int? aNacimiento;
 
   void Reporte(int aActual) {
@@ -45,18 +44,18 @@ void reporte(Estudiante e) {
 }
  
 
-//CLASE ANIMAL CON ATRIBUTOS NOMBRE Y SONIDO
+//Clase animal, Atributos Nombre y Sonido
 /* void main(List<String> args) {
   Animal perro = Animal();
   perro.nombre = "Firulais";
   perro.sonido = "Guau";
   perro.reporte();
   Animal gato = Animal();
-  gato.nombre = "Garfield";
+  gato.nombre = "Minho";
   gato.sonido = "Miau";
   gato.reporte();
   Animal pato = Animal();
-  pato.nombre = "Pato Donald";
+  pato.nombre = "Darwing";
   pato.sonido = "Cuak";
   pato.reporte()
   reporte(perro);
@@ -67,7 +66,7 @@ void reporte(Estudiante e) {
 class Animal {
   String nombre = "";
   String sonido = "";
-  //se llaman metodos todo lo que esta en una clase
+  //los metodos son todo lo que esta en una clase
   void reporte() {
     print("Nombre: ${nombre}");
     print("Sonido: ${sonido}");
@@ -81,7 +80,7 @@ void reporte(Animal a) {
  */
 ```
  ### Diagrama de clase
-![diagrama 19 03 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/650d2c82-0d63-480f-8011-cd942c80e67d)
+![diagrama 19 03 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/9cc9e5ce-4541-4a24-bd50-3db1c57d1d13)
 
 ## EJERCICIO 2.-
 ```dart
@@ -106,7 +105,7 @@ void main(List<String> args) {
 }*/
 import 'animal.dart';
 void main(List<String> args) {
-  Persona P1 = new Persona('Paco', 2000);
+  Persona P1 = new Persona('Florentino', 2000);
 
   print(P1.name);
   print(P1.aNac);
@@ -135,7 +134,7 @@ class Persona{
 }
 ```
 ### Diagrama de clase
-![diagrama 20 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/214c2276-936a-4534-8c7a-d1eb2be87a72)
+![diagrama 20 04 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/e6bed289-8af2-4a7d-9f60-0cceed99a2cc)
 
 
 ## Ejercicio 3.-
@@ -195,7 +194,7 @@ class Figura{
 }
 ```
 ### Diagrama de clase
-![diagrama 26 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/942dd82c-9b59-49fe-ac99-5de4edd7370a)
+![diagrama 26 04 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/145cb243-f74d-463d-98cf-5a4331e8f24c)
 
 
 
@@ -239,7 +238,7 @@ class Shape {
 }
 
 
-//set y get son metodos
+//setters y getters set y get son metodos
 ```
 ### Codigo 2.-
 ```dart
@@ -299,8 +298,8 @@ class Vehiculo {
 }
 ```
 
-### DIagrama de clase
-![diagrama27 04 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/8a020168-15a9-4766-b0ee-ec8969bffd26)
+### Diagrama de clase
+![diagrama27 04 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/b65b0eb1-b46f-48d4-b4fe-d68111a0069e)
 
 ## Ejercicio 5.-
 ```dart
@@ -344,8 +343,8 @@ class Animal {
 }
 ```
 
-### Diagrma de clase
-![diagrama 3 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/3b8accf0-40e2-40cc-82e4-afe676d23542)
+### Diagrama de clase
+![diagrama 3 05 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/282b8ea1-322e-4194-beaa-ecd6d519e605)
 
 ## Ejercicio 6.-
 ```dart
@@ -428,7 +427,7 @@ class Vaca extends Animal {
 ```
 
 ### Diagrama de clase
-![diagrama 4 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/c72a95d6-b816-4bd4-8cd2-0abbc499ecea)
+![diagrama 4 05 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/55f5d10d-fc8b-4565-8691-af973f1cf6eb)
 
 ## Ejercicio 7.-
 ```dart
@@ -504,7 +503,7 @@ class Carro extends Vehiculo{
 ```
 
 ### Diagrama de clase
-![diagrama 17 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/dc058c19-898a-4d83-8eb5-334e3e900c62)
+![diagrama 17 05 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/95f8114d-9e04-4139-af08-75ca0b597d7f)
 
 ## Ejercicio 8.-
 ```dart
@@ -512,7 +511,7 @@ class Carro extends Vehiculo{
 // Interfaces are a way to define a contract on a class.
 // Dart does not have syntax for declaring interfaces.
 // Allowed code reutilization.
-// Pretend simiulate multiple inheritance.
+// Pretend simulate multiple inheritance.
 
 void main(List<String> args) {
   ControlRemoto control = ControlRemoto();
@@ -546,4 +545,4 @@ class Television implements ControlRemoto {
 ```
 
 ### Diagrama de clase
-![diagrama 18 05 23](https://github.com/CarlosBarajas1004/SegundaParcial.md/assets/113406737/08528d88-364d-4258-a5f8-b805199711fe)
+![diagrama 18 05 23](https://github.com/PedroACG23/Parcial2sem2.md/assets/113472808/5e9c67aa-2cdb-49f7-9f5c-df6e81e2b429)
