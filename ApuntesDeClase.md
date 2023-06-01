@@ -1,4 +1,4 @@
-# Pedro Andrés Castillo Gildo - Semestre 2 Grupo B - Facultad de ingenieria mecanica y electrica, ingenieria en computacion inteligente, Universidad de Colima
+#  FACULTAD DE INGENIERIA MECANICA Y ELECTRICA - Pedro Andrés Castillo Gildo - Semestre 2 Grupo B - Ingenieria en computacion inteligente, Universidad de Colima
 ## PROGRAMACION ESTRUCTURADA Y ORIENTADA A OBJETOS, portafolio de diagramas y evidencias de codigos.
 ### Ejercicio 1.-
 ```dart
